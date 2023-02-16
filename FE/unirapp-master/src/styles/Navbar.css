@@ -1,0 +1,12 @@
+.toggle-buttom {
+    width: 250px;
+}
+
+.navbar-right {
+    float: right !important;
+    flex-direction: row-reverse;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}

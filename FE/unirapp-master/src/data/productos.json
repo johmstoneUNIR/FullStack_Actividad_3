@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "nombre": "Producto de prueba",
+        "precio": 23.50,
+        "imagen": "https://cdn.shopify.com/s/files/1/0120/6485/0016/products/WhatsApp_Image_2021-04-09_at_23.23.15_1_large.jpg?v=1618233853"
+    },
+    {
+        "id":2,
+        "nombre": "Producto de prueba 2",
+        "precio": 10,
+        "imagen": "https://cdn.shopify.com/s/files/1/0120/6485/0016/products/El-Nacional---2da-camiseta-alterna_1_3014c4cb-48f9-4772-8376-55d810e27dda_large.jpg?v=1647979171"
+    },
+    {
+        "id":3,
+        "nombre": "Producto de prueba 2",
+        "precio": 15,
+        "imagen": "https://cdn.shopify.com/s/files/1/0120/6485/0016/products/WhatsApp_Image_2021-04-09_at_23.23.15_1_large.jpg?v=1618233853"
+    },
+    {
+        "id":4,
+        "nombre": "Producto de prueba 2",
+        "precio": 10,
+        "imagen": "https://cdn.shopify.com/s/files/1/0120/6485/0016/products/El-Nacional---2da-camiseta-alterna_1_3014c4cb-48f9-4772-8376-55d810e27dda_large.jpg?v=1647979171"
+    },
+    {
+        "id":5,
+        "nombre": "Producto de prueba 2",
+        "precio": 10,
+        "imagen": "https://cdn.shopify.com/s/files/1/0120/6485/0016/products/El-Nacional---2da-camiseta-alterna_1_3014c4cb-48f9-4772-8376-55d810e27dda_large.jpg?v=1647979171"
+    },
+    {
+        "id":6,
+        "nombre": "Producto de prueba 2",
+        "precio": 10,
+        "imagen": "https://cdn.shopify.com/s/files/1/0120/6485/0016/products/El-Nacional---2da-camiseta-alterna_1_3014c4cb-48f9-4772-8376-55d810e27dda_large.jpg?v=1647979171"
+    }
+]
