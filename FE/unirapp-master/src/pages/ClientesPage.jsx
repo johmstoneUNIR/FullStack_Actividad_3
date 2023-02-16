@@ -14,7 +14,7 @@ export const ClientesPage = () => {
               <div className="shadow-sm p-3 bg-white rounded">
                 <div className="row">
                   <Search></Search>
-                  <table class="table">
+                  <table className="table">
                     <thead>
                       <tr>
                         <th scope="col">#</th>
