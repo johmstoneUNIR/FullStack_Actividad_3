@@ -14,11 +14,27 @@ export const ProductosPage = () => {
 
   useEffect(() => {
     document.title = "ReactShop - Productos"
+    loadData();
+  }, []);
+
+  const loadData = () => {
     BEServices.ProductList().then(res => {
       console.log(res);
       setProductos(res);
-    });    
-  }, []);
+    }); 
+  }
+
+  const Updatelist = (searchTxt) => {
+    console.log(searchTxt);
+    if(searchTxt === "" || searchTxt === undefined) {
+      loadData()
+    } else {
+    BEServices.SearchByName(searchTxt).then(res => {
+      console.log(res);
+      setProductos(res);
+    });
+  }
+  }
 
   return (
     <>
@@ -29,7 +45,7 @@ export const ProductosPage = () => {
             <div className="col">
               <div className="shadow-sm p-3 bg-white rounded">
                 <div className="row">
-                <Search></Search>
+                <Search CallbackFunction={Updatelist}></Search>
                   <div className="card-group">
                     { 
                       Productos.map( producto => {

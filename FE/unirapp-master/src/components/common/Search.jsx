@@ -1,15 +1,18 @@
 import React from 'react'
 import { useState } from 'react';
+import PropType from "prop-types";
 
-export const Search = () => {
+
+export const Search = (props) => {
     const [busqueda, setbusqueda] = useState('');
 
     const handleChange = (event) => {
         setbusqueda(event.target.value);
+        props.CallbackFunction(busqueda);
     }
 
     const handleSearch = () => {
-        alert(`Buscaste: ${busqueda}`);
+        props.CallbackFunction(busqueda);
     }
 
   return (
@@ -18,4 +21,8 @@ export const Search = () => {
         <button onClick={handleSearch} className="btn btn-primary" type="button">Buscar</button>
     </div>
   )
+}
+
+Search.propTypes = {
+  CallbackFunction: PropType.func
 }

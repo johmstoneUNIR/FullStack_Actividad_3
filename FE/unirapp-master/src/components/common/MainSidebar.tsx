@@ -28,7 +28,7 @@ export const MainSidebar = () => {
                 <i className="fa-solid fa-cubes"></i> Productos
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/pedidos"
                 className={ ({isActive}) => `nav-link ${ isActive ? 'active' : 'text-white'}`}>
                 <i className="fa-solid fa-bag-shopping"></i> Pedidos
@@ -39,7 +39,7 @@ export const MainSidebar = () => {
                 className={ ({isActive}) => `nav-link ${ isActive ? 'active' : 'text-white'}`}>
                 <i className="fa-solid fa-users"></i> Clientes
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/noexiste"
                 className={ ({isActive}) => `nav-link ${ isActive ? 'active' : 'text-white'}`}>

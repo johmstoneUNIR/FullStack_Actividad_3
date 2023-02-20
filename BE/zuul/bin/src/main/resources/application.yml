@@ -5,9 +5,9 @@ spring:
     name: zuul-server
 eureka:
   instance:
-    preferIpAddress: true
-    hostname: ${EUREKA_HOST:localhost}
-    
+    appname: zuul-server
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}:${random.value}}
   client:
     registerWithEureka: true
     fetchRegistry: true
